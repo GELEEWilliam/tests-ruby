@@ -51,6 +51,7 @@ describe "Simon says" do
       expect(start_of_word(s, 3)).to eq("abc")
     end
   end
+  
 
   describe "first_word" do
     it "tells us the first word of 'Hello World' is 'Hello'" do
@@ -61,6 +62,7 @@ describe "Simon says" do
       expect(first_word("oh dear")).to eq("oh")
     end
   end
+
 
   describe "titleize" do
     it "capitalizes a word" do
