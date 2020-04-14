@@ -5,7 +5,7 @@ def translate(string)
   mots = string.split
   phrase = []
 
-  if string.split().length > 1
+  if string.split.length > 1
     mots.each do |mot|
       mot = translate(mot)
       phrase << mot
